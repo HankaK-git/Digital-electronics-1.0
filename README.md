@@ -3,7 +3,9 @@
 
 1) [Hanka-Git](https://github.com/HankaK-git/Digital-electronics-1.0)
 
-2) ```
+2) 
+
+```
 entity gates is
     port(
         a_i    : in  std_logic;         
@@ -15,7 +17,6 @@ entity gates is
 end entity gates;
 
 
-
 architecture dataflow of gates is
 begin
     for_o  <= a_i or b_i;
@@ -24,5 +25,7 @@ begin
 
 end architecture dataflow;
 ```
+
+
 
 3) 
