@@ -7,9 +7,9 @@ Odkaz [GitHub](https://github.com/HankaK-git/Digital-electronics-1.0)
 ### 2.
 **Odkaz na EDA Playground**
 
-Simulace na EDA Playground [Zde]().
+Simulace na EDA Playground [Zde](https://www.edaplayground.com/x/cXky).
 
-**Zdrojový kód vzorců**
+**Zdrojový kód**
 
 ```
 architecture dataflow of gates is 
@@ -39,40 +39,20 @@ end architecture dataflow;
 | 1 | 1 | 1 | 0 |
 
 
-
-
-
-
-
 ### 3.
 **Odkaz na EDA Playground**
 
-Simulace na EDA Playground [Zde]().
+Simulace na EDA Playground [Zde](https://www.edaplayground.com/x/pt85).
 
 **Zdrojový kód**
 
 ```
-entity gates is
-	port
-    (
-    	x_i : in std_logic;
-        y_i : in std_logic;
-        z_i : in std_logic;
-        f1_leva : out std_logic;
-        f1_prava : out std_logic;
-        f2_leva : out std_logic;
-        f2_prava : out std_logic
-    );
-
-end entity gates;
-
-
 architecture dataflow of gates is 
 begin 
-	 f1_leva <= (x_i and y_i) or (x_i and z_i);
-     f1_prava <= x_i and (y_i or z_i);
-     f2_leva <= (x_i or y_i) and (x_i or z_i);
-     f2_prava <= x_i or (y_i and z_i);
+	 f_1 <= (x_i and y_i) or (x_i and z_i);
+     f_2 <= x_i and (y_i or z_i);
+     f_3 <= (x_i or y_i) and (x_i or z_i);
+     f_4 <= x_i or (y_i and z_i);
      
 end architecture dataflow;
 ```
