@@ -23,8 +23,8 @@ end architecture dataflow;
 
 
 **Simulace De-Morganových zákonů, vzorce**
-![Simulace](Images/Funkce_DeMorganovych_pravidel.jpg)
-![Vzorce](Images/Vzorce.png)
+![Simulace](Images/Demorgan.png)
+![Vzorce](Images/de1.png)
 
 **Tabulka hodnot**
 | **c** | **b** |**a** | **f(c,b,a)** |
