@@ -1,10 +1,10 @@
 # Digital-electronics-1
 
-## Laboratoře (Gates)
-### 1.
+## 1.) Gates
+### 1.)
 Odkaz [GitHub](https://github.com/HankaK-git/Digital-electronics-1.0)
 
-### 2.
+### 2.)
 **Odkaz na EDA Playground**
 
 Simulace na EDA Playground [Zde](https://www.edaplayground.com/x/cXky).
@@ -39,7 +39,7 @@ end architecture dataflow;
 | 1 | 1 | 1 | 0 |
 
 
-### 3.
+### 3.)
 **Odkaz na EDA Playground**
 
 Simulace na EDA Playground [Zde](https://www.edaplayground.com/x/pt85).
