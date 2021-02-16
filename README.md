@@ -3,7 +3,8 @@
 
 1) [Hanka-Git](https://github.com/HankaK-git/Digital-electronics-1.0)
 
-2) entity gates is
+2) ```
+entity gates is
     port(
         a_i    : in  std_logic;         
         b_i    : in  std_logic;         
@@ -22,5 +23,6 @@ begin
     fxor_o <= a_i xor b_i;
 
 end architecture dataflow;
+```
 
-3) ![Vzorce](de1.png)
+3) 
