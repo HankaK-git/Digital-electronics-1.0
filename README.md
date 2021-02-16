@@ -26,6 +26,4 @@ begin
 end architecture dataflow;
 ```
 
-
-
 3) 
