@@ -56,10 +56,12 @@ begin
      
 end architecture dataflow;
 ```
+f1=f2
+f3=f4
 
-
-**Screenshot simulace Distribučních funkcí a jejich vzorce**
+**Simulace Distribučních funkcí, vzorce**
 ![Simulace](Images/Distrib.png)
 ![Vzorce](Images/Distribucni_funkce.png)
+
 
 
