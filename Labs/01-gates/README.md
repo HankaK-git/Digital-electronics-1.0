@@ -1,5 +1,4 @@
 # Digital-electronics-1
-
 ## 1.) Gates
 ### 1.)
 Odkaz [GitHub](https://github.com/HankaK-git/Digital-electronics-1.0)
@@ -20,7 +19,6 @@ begin
 end architecture dataflow;
 
 ```
-
 
 **Simulace De-Morganových zákonů, vzorce**
 ![Simulace](Images/Demorgan.png)
@@ -56,7 +54,7 @@ begin
      
 end architecture dataflow;
 ```
-f1=f2
+f1=f2;
 f3=f4
 
 **Simulace Distribučních funkcí, vzorce**
