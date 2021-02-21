@@ -11,7 +11,7 @@ entity comparator_4bit is
       b_i           : in  std_logic_vector(4 - 1 downto 0);
 
 		B_greater_A_o : out std_logic;
-    B_equals_A_o  : out std_logic;     
+                B_equals_A_o  : out std_logic;     
 		B_less_A_o    : out std_logic
     );
 end entity comparator_4bit;
@@ -21,7 +21,7 @@ begin
 
 	B_greater_A_o   <= '1' when (b_i > a_i) else '0';
 	B_equals_A_o    <= '1' when (b_i = a_i) else '0';
-  B_less_A_o      <= '1' when (b_i < a_i) else '0';
+        B_less_A_o      <= '1' when (b_i < a_i) else '0';
 
 
 end architecture Behavioral;
@@ -31,7 +31,6 @@ end architecture Behavioral;
 ## testbench. vhd
 ```
 entity tb_comparator_4bit is
-    -- Entity of testbench is always empty
 end entity tb_comparator_4bit;
 
 architecture testbench of tb_comparator_4bit is
@@ -56,7 +55,6 @@ begin
 
     p_stimulus : process
     begin
-        -- Report a note at the begining of stimulus process
         report "Stimulus process started" severity note;
 
 
