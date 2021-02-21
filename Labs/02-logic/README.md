@@ -1,6 +1,6 @@
 # Laborka 2
 
-https://www.edaplayground.com/x/cdJk
+## Tabulka hodnot
 ![Tabulka](Images/Tabulka.JPG)
 
 ## syntaxe design. vhd
