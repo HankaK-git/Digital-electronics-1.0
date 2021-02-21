@@ -4,7 +4,7 @@
 ![Tabulka](Images/Tabulka.JPG)
 
 ## syntaxe design. vhd
- 
+``` 
 entity comparator_4bit is
     port(
       a_i           : in  std_logic_vector(4 - 1 downto 0);
@@ -25,7 +25,7 @@ begin
 
 
 end architecture Behavioral;
-
+``` 
 
 
 ## testbench. vhd
