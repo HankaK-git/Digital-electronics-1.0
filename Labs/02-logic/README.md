@@ -136,4 +136,6 @@ testbench.vhd:104:9:@1us:(assertion error): Chyba pro vstupní kombinaci: 1000, 
 testbench.vhd:117:9:@1100ns:(report note): Stimulus process finished
 Finding VCD file...
 ./dump.vcd
+
+https://www.edaplayground.com/x/cdJk
 ```
