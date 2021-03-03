@@ -2,8 +2,8 @@
 
 
 
-![](Images/tabulka decko.png)
+![](Images/03tabulka.png)
 
-![](Images/graf decko.png)
+![](Images/03graf.png)
 
 ![](Images/postup.png)
