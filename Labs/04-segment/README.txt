@@ -1,4 +1,4 @@
-# Priprava
+# __Priprava__
 | **Hex** | **Inputs** | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0000 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
@@ -19,8 +19,8 @@
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
 
 
-# Seg 7
-## hex_7seg.vhd
+# __Seg 7__
+## __hex_7seg.vhd__
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -167,11 +167,11 @@ begin
 end Behavioral;
 
 
-## Simulation 7seg
+## __Simulation 7seg__
+! []
 
 
-
-## top.vhd
+## __top.vhd__
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -232,8 +232,8 @@ begin
 
 end Behavioral;
 
-# LED (7:4)
-## Table
+# __LED (7:4)__
+## __Table__
 | :-: | :-: | :-: |
 | 0 | 0000 | 4 |
 | 1 | 0001 | 6,7 |
@@ -252,4 +252,4 @@ end Behavioral;
 | E | 1110 | - |
 | F | 1111 | 6 |
 
-## Simulation
+## __Simulation__
