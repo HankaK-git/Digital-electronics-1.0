@@ -1,3 +1,4 @@
+# Priprava
 | **Hex** | **Inputs** | **A** | **B** | **C** | **D** | **E** | **F** | **G** |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0000 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
@@ -17,6 +18,9 @@
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
 
+
+# Seg 7
+## hex_7seg.vhd
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -97,7 +101,7 @@ p_stimulus : process
 
 end Behavioral;
 
-
+## tb_hex_7seg.vhd
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -163,8 +167,11 @@ begin
 end Behavioral;
 
 
+## Simulation 7seg
 
 
+
+## top.vhd
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -224,6 +231,28 @@ begin
     LED(7)  <= '1' when (SW = "0001" or SW = "0010" or SW = "0100" or SW = "1000") else '0';
 
 end Behavioral;
+
+# LED (7:4)
+## Table
+| :-: | :-: | :-: |
+| 0 | 0000 | 4 |
+| 1 | 0001 | 6,7 |
+| 2 | 0010 | 7 |
+| 3 | 0011 | 6 |
+| 4 | 0100 | 7 |
+| 5 | 0101 | 6 |
+| 6 | 0110 | - |
+| 7 | 0111 | 6 |
+| 8 | 1000 | 7 |
+| 9 | 1001 | 5,6 |
+| A | 1010 | - |
+| b | 1011 | 6 |
+| C | 1100 | - |
+| d | 1101 | 6 |
+| E | 1110 | - |
+| F | 1111 | 6 |
+
+## Simulation
 
 
 
