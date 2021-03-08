@@ -22,6 +22,7 @@
 
 # Seg 7
 ## hex_7seg.vhd
+```
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -101,8 +102,10 @@ p_stimulus : process
     end process p_stimulus;
 
 end Behavioral;
+```
 
 ## tb_hex_7seg.vhd
+```
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -166,13 +169,14 @@ begin
     end process p_stimulus;
 
 end Behavioral;
-
+```
 
 ## Simulation 7seg
 ![Simulation]()
 
 
 ## top.vhd
+```
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -232,9 +236,10 @@ begin
     LED(7)  <= '1' when (SW = "0001" or SW = "0010" or SW = "0100" or SW = "1000") else '0';
 
 end Behavioral;
-
+```
 # LED (7:4)
 ## Table
+```
 | :-: | :-: | :-: |
 | 0 | 0000 | 4 |
 | 1 | 0001 | 6,7 |
@@ -252,5 +257,5 @@ end Behavioral;
 | d | 1101 | 6 |
 | E | 1110 | - |
 | F | 1111 | 6 |
-
+```
 ## Simulation
