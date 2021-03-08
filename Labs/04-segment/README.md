@@ -172,7 +172,7 @@ end Behavioral;
 ```
 
 ## Simulation 7seg
-![Simulation](/Images/simulation_1.png/)
+![Simulation](/Images/simulation_1.png)
 
 
 ## top.vhd
@@ -259,4 +259,4 @@ end Behavioral;
 | F | 1111 | 6 |
 
 ## Simulation
-![Simulation](/Images/simulation_2.png/)
+![Simulation](/Images/simulation_2.png)
