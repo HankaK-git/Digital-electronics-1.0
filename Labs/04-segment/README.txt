@@ -259,3 +259,4 @@ end Behavioral;
 | F | 1111 | 6 |
 ```
 ## Simulation
+![Simulation](/Images/simulation_2.png/)
