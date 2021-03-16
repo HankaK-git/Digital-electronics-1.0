@@ -1,0 +1,8 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Documents/Digital-electronics-1.0/Labs/05-counter/counter/counter.srcs/sim_1/new/tb_clock_enable.vhd,1615718272,vhdl,,,,tb_clock_enable,,,,,,,,
+C:/Documents/Digital-electronics-1.0/Labs/05-counter/counter/counter.srcs/sim_1/new/tb_cnt_up_down.vhd,1615909502,vhdl,,,,tb_cnt_up_down,,,,,,,,
+C:/Documents/Digital-electronics-1.0/Labs/05-counter/counter/counter.srcs/sources_1/new/clock_enable.vhd,1615718218,vhdl,C:/Documents/Digital-electronics-1.0/Labs/05-counter/counter/counter.srcs/sim_1/new/tb_clock_enable.vhd,,,clock_enable,,,,,,,,
+C:/Documents/Digital-electronics-1.0/Labs/05-counter/counter/counter.srcs/sources_1/new/cnt_up_down.vhd,1615910289,vhdl,C:/Documents/Digital-electronics-1.0/Labs/05-counter/counter/counter.srcs/sim_1/new/tb_cnt_up_down.vhd,,,cnt_up_down,,,,,,,,
