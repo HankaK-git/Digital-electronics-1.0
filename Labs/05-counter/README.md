@@ -16,7 +16,7 @@
 
 ## 2. Bidirectional counter
 Listing of VHDL code of the process p_cnt_up_down
-```
+```vhdl
 p_cnt_up_down : process(clk)
     begin
         if rising_edge(clk) then
@@ -38,7 +38,7 @@ p_cnt_up_down : process(clk)
 
 Listing of VHDL reset and stimulus processes from testbench file tb_cnt_up_down.vhd
 Reset process
-```
+```vhdl
 p_reset_gen : process
  begin
      s_reset <= '0';
@@ -53,7 +53,7 @@ p_reset_gen : process
  end process p_reset_gen;
 ```
 Stimulus process
-```
+```vhdl
 p_stimulus : process
     begin
         report "Stimulus process started" severity note;
@@ -78,7 +78,7 @@ p_stimulus : process
 ![ ](Images/sim2.png)
 
 ## 3. Top level
-```
+```vhdl
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
