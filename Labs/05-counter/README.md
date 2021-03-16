@@ -155,4 +155,7 @@ begin
 
 end architecture Behavioral;
 ```
+![4_bit counter](Images/4_bit.png)
+![16_bit counter](Images/16_bit.png)
+
 
