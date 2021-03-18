@@ -130,3 +130,5 @@ begin
 end architecture testbench;
 ```
 
+![Simulace](Images/sim_1.png)
+![Simulace](Images/sim_2.png)
