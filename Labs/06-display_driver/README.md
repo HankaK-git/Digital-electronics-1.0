@@ -187,5 +187,5 @@ begin
 
 end architecture Behavioral;
 ```
-![8_digit-driver](Images/nacrt.png)
+![8_digit-driver](Images/nacrt.jpg)
 
