@@ -1,6 +1,8 @@
 # Display-driver
-## 1.
-## 2.
+## 1. Preparation task
+![Timing diagram figure for displaying value 3.142](Images/3,142.png)
+
+## 2. Display driver
 p_mux
 ``` vhdl
  p_mux : process(s_cnt, data0_i, data1_i, data2_i, data3_i, dp_i)
@@ -133,7 +135,7 @@ Simulace
 ![Simulace](Images/sim_1.png)
 ![Simulace](Images/sim_2.png)
 
-top architecture
+## 3. top architecture
 ```vhdl
 architecture Behavioral of top is
     -- No internal signals
@@ -185,3 +187,5 @@ begin
 
 end architecture Behavioral;
 ```
+![8_digit-driver](Images/nacrt.jpg)
+
