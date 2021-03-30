@@ -167,7 +167,7 @@ end Behavioral;
 ```
 
 ### Screenshot with simulated time waveforms
-![](Images/tb d_latch.png)
+![](Images/tb_d_latch.png)
 
 ## 3. Flip-flops
 ### d_ff_arst.vhd
@@ -606,9 +606,10 @@ p_clk_gen : process
 ```
 
 ## Screenshot with simulated time waveforms
-![d_ff_arst](Images/tb d_ff_arst.png)
-![d_ff_rst](Images/tb d_ff_rst.png)
-![jk_ff_rst](Images/tb jk_ff_rst.png)
-![t_ff_rst](Images/tb t_ff_rst.png)
+![d_ff_arst](Images/tb_d_ff_arst.png)
+![d_ff_rst](Images/tb_d_ff_rst.png)
+![jk_ff_rst](Images/tb_jk_ff_rst.png)
+![t_ff_rst](Images/tb_t_ff_rst.png)
 
 ## 4. Shift register
+![Shift](Images/shift_register.png)
