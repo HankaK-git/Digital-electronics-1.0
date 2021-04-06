@@ -178,7 +178,7 @@ p_output_fsm : process(s_state)
 | `SOUTH_WAIT` | yellow | red | 2 sec |
 
 ### State diagram
-![diagram](Images/img_0014.jpg)
+![diagram](Images/IMG_0014.jpg)
 
 ### VHDL code p_smart_traffic_fsm
 ``` vhdl
