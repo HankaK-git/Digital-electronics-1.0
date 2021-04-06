@@ -149,7 +149,35 @@ p_output_fsm : process(s_state)
 
 ## 3. Smart controller
 ### State table
+| **Current state (00)** | **Direction South** | **Direction West** |
+| :-- | :-: | :-: |
+| `SOUTH_GO`   | green  | red |
+| `WEST_GO`   | red | green |
+
+| **Current state (01)** | **Direction South** | **Direction West** | **Delay** |
+| :-- | :-: | :-: | :-: |
+| `SOUTH_GO`    | green | red | 0 sec |
+| `SOUTH_WAIT`  | yellow | red | 2 sec |
+| `STOP1`      | red | red | 1 sec |
+| `WEST_GO`   | red | green |  |
+
+| **Current state (10)** | **Direction South** | **Direction West** | **Delay** |
+| :-- | :-: | :-: | :-: |
+| `WEST_GO`    | red    | green | 0 sec |
+| `WEST_WAIT`  | red    | yellow | 2 sec |
+| `STOP2`      | red    | red | 1 sec |
+| `SOUTH_GO`   | green  | red |  |
+
+| **Current state (11)** | **Direction South** | **Direction West** | **Delay** |
+| :-: | :-: | :-: | :-: |
+| `STOP1`      | red    | red | 1 sec |
+| `WEST_GO`    | red    | green | 4 sec |
+| `WEST_WAIT`  | red    | yellow | 2 sec |
+| `STOP2`      | red    | red | 1 sec |
+| `SOUTH_GO`   | green  | red | 4 sec |
+| `SOUTH_WAIT` | yellow | red | 2 sec |
 ### State diagram
+![](Images/img_0014.jpg)
 ### VHDL code p_smart_traffic_fsm
 ``` vhdl
 p_smart_traffic_fsm : process(clk)
