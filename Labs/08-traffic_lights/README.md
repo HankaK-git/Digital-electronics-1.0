@@ -144,8 +144,8 @@ p_output_fsm : process(s_state)
     end process p_output_fsm;
 ```
 ### Screenshots of the simulation
-![screen_1](Snímek obrazovky 2021-04-06 130659.png)
-![screen_2](Snímek obrazovky 2021-04-06 130806.png)
+![screen_1](Images/12.png)
+![screen_2](Images/13.png)
 
 ## 3. Smart controller
 ### State table
