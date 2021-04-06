@@ -176,8 +176,10 @@ p_output_fsm : process(s_state)
 | `STOP2`      | red    | red | 1 sec |
 | `SOUTH_GO`   | green  | red | 4 sec |
 | `SOUTH_WAIT` | yellow | red | 2 sec |
+
 ### State diagram
-![](Images/img_0014.jpg)
+![diagram](Images/img_0014.jpg)
+
 ### VHDL code p_smart_traffic_fsm
 ``` vhdl
 p_smart_traffic_fsm : process(clk)
